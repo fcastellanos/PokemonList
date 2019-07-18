@@ -13,6 +13,8 @@
 		7F4740FD22E010ED00C2851B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4740FC22E010ED00C2851B /* Assets.xcassets */; };
 		7F47410022E010ED00C2851B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4740FF22E010ED00C2851B /* Preview Assets.xcassets */; };
 		7F47410322E010ED00C2851B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F47410122E010ED00C2851B /* LaunchScreen.storyboard */; };
+		7F47410B22E0131600C2851B /* PokemonAPIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F47410A22E0131600C2851B /* PokemonAPIList.swift */; };
+		7F47410D22E0196600C2851B /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F47410C22E0196600C2851B /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7F4740FF22E010ED00C2851B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F47410222E010ED00C2851B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F47410422E010ED00C2851B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F47410A22E0131600C2851B /* PokemonAPIList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAPIList.swift; sourceTree = "<group>"; };
+		7F47410C22E0196600C2851B /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7F47410122E010ED00C2851B /* LaunchScreen.storyboard */,
 				7F47410422E010ED00C2851B /* Info.plist */,
 				7F4740FE22E010ED00C2851B /* Preview Content */,
+				7F47410A22E0131600C2851B /* PokemonAPIList.swift */,
+				7F47410C22E0196600C2851B /* NetworkingManager.swift */,
 			);
 			path = PokemonList;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			files = (
 				7F4740F722E010EA00C2851B /* AppDelegate.swift in Sources */,
 				7F4740F922E010EA00C2851B /* SceneDelegate.swift in Sources */,
+				7F47410B22E0131600C2851B /* PokemonAPIList.swift in Sources */,
+				7F47410D22E0196600C2851B /* NetworkingManager.swift in Sources */,
 				7F4740FB22E010EA00C2851B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
