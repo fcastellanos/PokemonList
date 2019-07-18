@@ -13,12 +13,11 @@ import Combine
 class NetworkingManager : BindableObject {
     typealias PublisherType = PassthroughSubject<NetworkingManager, Never>
     
-    var didChange = PublisherType()
     var willChange = PublisherType()
     
     var pokemonList = PokemonAPIList(results: []) {
-        didSet {
-            didChange.send(self)
+        willSet {
+            willChange.send(self)
         }
     }
     
@@ -29,7 +28,7 @@ class NetworkingManager : BindableObject {
             guard let data = data else { return }
             
             let pokemonList = try! JSONDecoder().decode(PokemonAPIList.self, from: data)
-            print(pokemonList)
+
             DispatchQueue.main.async {
                 self.pokemonList = pokemonList
             }

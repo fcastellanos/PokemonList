@@ -13,7 +13,7 @@ struct ContentView: View {
 
     var body: some View {        
         List(networkingManager.pokemonList.results, id: \.url) { pokemon in
-            Text(pokemon.name)
+            Text(pokemon.name.capitalized)
         }
     }
 }
